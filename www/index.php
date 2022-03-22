@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/../../vippreferred-mm-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
+<?php require_once __DIR__ . '/../../vip-mm-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
 <?php $clientDBName = $enConfigClient['environment']['database_name'];
 // planing to check the database name and change the client name for title
 $title = $description = '';
@@ -11,7 +11,7 @@ $description = "";
 <html lang="en" class="setTo100 themed-layout">
 <head>
     <title><?php echo $title; ?></title>
-    <?php require_once __DIR__ . '/../../vippreferred-mm-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
+    <?php require_once __DIR__ . '/../../vip-mm-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="robots" content="noindex, nofollow" />
@@ -78,6 +78,6 @@ $description = "";
             }(jQuery)
         );
     </script>
-    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=vippreferred-mm&client_id=7d6a9708e8800103ccc13c12520e7285" type="text/javascript"></script>
+    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=vip-mm&client_id=53ed1f36618d0a39c92e416065f9a0b7" type="text/javascript"></script>
 </body>
 </html>
